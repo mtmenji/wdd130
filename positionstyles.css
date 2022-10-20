@@ -160,8 +160,6 @@
   /* This is the parent of the activity 6 boxes. */
   display: grid;
   grid-template-columns: repeat(6, 50px);
-  width: 300px;
-  height: 300px;
 }
 .red6 {
   width: 200px; 
