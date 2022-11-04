@@ -26,6 +26,14 @@ Fonts are separated by a | */
   --nav-hover-background-color: #FAF0CA;
 }
 
+/*  Changes made by myself:*/
+.bold {
+  font-weight: 700;
+}
+
+img {
+  width: 25%;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -173,3 +181,4 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
