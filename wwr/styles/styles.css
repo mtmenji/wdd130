@@ -233,6 +233,127 @@ nav a:hover {
     color: darkblue;
 }
 
+
+/*Blog Subpage*/
+
+#blog-content{
+    margin: 0 auto;
+    width: 90%
+}
+
+.blog-head-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px; 
+}
+
+.center-align {
+    text-align: center;
+}
+
+.trainer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.trainer-grid-title {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.trainer-img {
+    width: 300px;
+    border: 10px solid darkgoldenrod;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.trainer-jonny {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.trainer-keenan {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.trainer-darwin {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.trainer-anika {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.encounter{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    align-items: center;
+}
+
+.scorpion {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.scorpion-text {
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+.scorpion-warning {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.sheep {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.sheep-text {
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+.sheep-warning {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.scorpion-warning-background {
+    background-color: rgb(216, 135, 135);
+    border-radius: 50px;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sheep-warning-background {
+    background-color: rgb(216, 135, 135);
+    border-radius: 50px;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.warning-header {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -263,6 +384,7 @@ nav a:hover {
         margin: 50px auto;
         width: 60%;
     }
+
     #background {
         display: none;
     }
@@ -275,3 +397,5 @@ nav a:hover {
         margin-top: 25px;
     }
 }
+
+
