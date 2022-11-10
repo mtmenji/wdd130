@@ -89,6 +89,10 @@ p {
   height: 3em;
 }
 
+.enlarge-img {
+  width: 1000px;
+}
+
 .primary {
   background-color: var(--primary-color);
 }
