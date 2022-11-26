@@ -1,0 +1,303 @@
+/* Imported Text Styles */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Sawarabi+Mincho&family=Source+Sans+Pro:wght@200&display=swap');
+
+/*Every Page Styles*/
+    body {
+        margin: 0;
+        background-color: #FAF0CA;
+    }
+
+    .logo {
+        width: 160px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    img {
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+    }
+
+/* Header Styles */
+    header {
+        background-color: #314245;
+        display: grid;
+        grid-template-columns: 300px auto;
+        grid-template-rows: 50px;
+        z-index: 2;
+    }
+
+    header img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav a {
+        color: #FAF0CA;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        text-decoration: none; /*Removes the underline link effect*/
+        padding: 10px;
+        transition: transform .2s;
+    }
+
+    nav a:hover {
+        color: #314245;
+        background-color: #F4D35E;
+        border-radius: 10px;
+        font-weight: 900;
+        transform: scale(1.05);
+        transition-timing-function: ease-in-out; /*Allows the animation to animate when mouse leaves hover as well as enter the hover*/
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+
+/* Footer Styles */
+    footer {
+        background-color: #314245;
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr 2fr;
+        grid-template-rows: 50px;
+    }
+
+    #footer-site-plan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FAF0CA;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        text-decoration: none; /*Removes the underline link effect*/
+        padding: 10px;
+    }
+
+    footer a img {
+        display: flex;
+    }
+
+    #footer-linkedin {
+        width: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FAF0CA;
+        font-family: "Source Sans Pro";
+        font-size: 16px;
+    }
+
+/* Home Page Styles */
+    h1 {
+        text-align: center;
+        font-size: 72px;
+        text-decoration-line: underline;
+        margin: 50px auto 50px auto;
+    }
+
+    /* Welcome Blurb */
+        .blurb-welcome {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 4fr 1fr;
+            background-color: #e1d8b6;
+            margin-left: 50px;
+            margin-right: 50px;
+            border: 10px ridge #8ec46e68;
+        }
+
+        .blurb-welcome img {
+            grid-row: 1/3;
+            grid-column: 1/2;
+            border: 10px double #8ec46e;
+        }
+
+        #blurb-welcome-caption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            z-index: 1;
+            font-size: 28px;
+            margin-left: 75px;
+            margin-right: 75px;
+            background-color: #8ec46e;
+            color: #333745;
+        }
+
+        #blurb-welcome-message {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            margin-left: 25px;
+            margin-right: 25px;
+            color: #333745;
+        }
+
+        #blurb-welcome-disclaimer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column: 2/3;
+            color: red;
+            font-size: 20px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+    /* YouTube Video Div */
+        .homepage-youtube {
+            display: grid;
+            grid-template-rows: 1fr 5fr;
+            padding-bottom: 50px;
+        }
+
+        .homepage-youtube h2 {
+            grid-row: 1/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333745;
+        }
+
+        #youtube-video {
+            grid-row: 2/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+
+        }
+    
+    /* Definitions Div */
+        .homepage-definitions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 100px;
+            margin-right: 100px;
+            column-gap: 100px;
+        }
+
+        .homepage-definitions-finance {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 5fr;
+            background-color: #e1d8b6;
+            border: 10px ridge #8ec46e68;
+        }
+
+        .homepage-definitions-budget {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 5fr;
+            background-color: #e1d8b6;
+            border: 10px ridge #8ec46e68;
+        }
+
+        .homepage-definitions h3 {
+            display: flex;
+            justify-content: center;
+            text-decoration: underline;
+        }
+
+        .homepage-definitions p {
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+    /* Personal Finance Facts Div */
+        .homepage-facts {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            row-gap: 50px;
+            margin: 50px 100px 50px 100px;
+        }
+        
+        .homepage-facts-container {
+            position: relative;
+        }
+
+        .homepage-facts-img {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            border: 10px double #8ec46e;
+        }
+
+        .homepage-facts-container:hover .homepage-facts-img {
+            opacity: .3;
+        }
+        
+        .homepage-facts-upper {
+            transition: .5s ease;
+            opacity: 1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .homepage-facts-upper-text {
+            background-color: #f4d45e;
+            color: #333745;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+
+        .homepage-facts-container:hover .homepage-facts-upper {
+            opacity: 0;
+        }
+
+        .homepage-facts-middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .homepage-facts-container:hover .homepage-facts-middle {
+            opacity: 1;
+        }
+
+        .homepage-facts-text {
+            background-color: #F4D35E;
+            color: #333745;
+            font-size: 16px;
+            padding: 16px 32px;
+        }        
+
+/* Create Budget Styles */
+
+
+/* Budget Template Styles */
+
