@@ -5,6 +5,7 @@
     body {
         margin: 0;
         background-color: #FAF0CA;
+        color: #333745;
     }
 
     .logo {
@@ -17,6 +18,18 @@
         height: auto;
         max-width: 80%;
         margin: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    .numbered-list {
+        list-style-type: decimal;
     }
 
 /* Header Styles */
@@ -44,7 +57,6 @@
         color: #FAF0CA;
         font-family: "Source Sans Pro";
         font-size: 20px;
-        text-decoration: none; /*Removes the underline link effect*/
         padding: 10px;
         transition: transform .2s;
     }
@@ -80,7 +92,6 @@
         color: #FAF0CA;
         font-family: "Source Sans Pro";
         font-size: 20px;
-        text-decoration: none; /*Removes the underline link effect*/
         padding: 10px;
     }
 
@@ -297,7 +308,172 @@
         }        
 
 /* Create Budget Styles */
+        
+    #gurus-header {
+        font-size: 48px;
+        text-align: center;
+        color: #333745;
+    }
 
+    #gurus-text {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 
+    /* Financial Gurus Div */
+        .gurus {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: .5fr 3fr .5fr .5fr;
+            background-color: #e1d8b6;
+            margin-left: 50px;
+            margin-right: 50px;
+            border: 10px ridge #8ec46e68;
+        }
+
+        #gurus-dave-header {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #333745;
+        }
+
+        #gurus-dave-img {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            border: 10px double #8ec46e;
+        }
+
+        #gurus-dave-text {
+            grid-column: 1/2;
+            grid-row: 3/4;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #gurus-moneyguy-header {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #333745;
+        }
+
+        #gurus-moneyguy-img {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            border: 10px double #8ec46e;
+        }
+
+        #gurus-moneyguy-text {
+            grid-column: 2/3;
+            grid-row: 3/4;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #gurus-graham-header {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #333745;
+        }
+
+        #gurus-graham-img {
+            grid-column: 3/4;
+            grid-row: 2/3;
+            border: 10px double #8ec46e;
+        }
+
+        #gurus-graham-text {
+            grid-column: 3/4;
+            grid-row: 3/4;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #gurus-disclaimer {
+            grid-column: 1/4;
+            grid-row: 4/5;
+            margin-left: 50px;
+            margin-right: 50px;
+            color: red;
+            font-weight: bold;
+        }
+
+    /* Important Note Blurb */
+        .create-important {
+            border: 10px ridge red;
+            margin: 25px 25px 25px 25px;
+            padding-bottom: 10px;
+            background-color: #F4D35E;
+            text-align: center;
+        }
+
+        .create-important h2 {
+            font-size: 32px;
+        }
+
+        .create-important p {
+            font-size: 18px;
+        }
+
+    /* Create a Budget Div */
+    #create-budget-header {
+        font-size: 48px;
+        text-align: center;
+        color: #719d58;
+    }
+
+    .create-budget {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .create-budget-step-header {
+        font-size: 24px;
+        color: #98ca7d;
+    }
+
+    .tithing {
+        background-color: #8ec46e;
+        color: #333745;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    
+    .tithing:hover {
+        background-color:#638b4c;
+    }
+
+    .create-concluding-div {
+        color: #719d58;
+        font-weight: bold;
+        text-align: center;
+        font-size: 28px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 /* Budget Template Styles */
 
